@@ -1,0 +1,35 @@
+name: PAND_2025
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # ----- Core Python -----
+  - python=3.11
+  - pip
+
+  # ----- Jupyter ecosystem (stable combo) -----
+  - jupyter=1.0.0
+  - jupyterlab=4.1.*
+  - notebook=6.5.*
+  - nbformat=5.9.*
+  - nbconvert
+  - ipykernel
+  - ipython
+  - ipywidgets
+
+  # ----- Scientific stack -----
+  - numpy=1.26.*
+  - scipy
+  - pandas
+  - matplotlib
+  - statsmodels
+  - nitime
+  - numexpr
+
+  # ----- Utilities -----
+  - pillow
+  - pyzmq
+  - traitlets
+  - tornado=6.2   # avoids async kernel crashes
+
+  
