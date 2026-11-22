@@ -14,3 +14,4 @@ _site/
 Case*pdf
 _build
 *.swp
+ipynb_checkpoints
